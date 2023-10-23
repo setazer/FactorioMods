@@ -1,3 +1,8 @@
+Version: 0.1.1
+Date: 23. 10. 2023
+  Changes:
+  - Added GhostOnWater & ModuleInserter (thx to https://www.reddit.com/r/Factoriohno/comments/1773dni/whos_next/)
+
 Version: 0.1.0
 Date: 23. 10. 2023
   Changes:
