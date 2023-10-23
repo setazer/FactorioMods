@@ -1,15 +1,16 @@
 {
-	"name": "factorio_2ish",
+	"name": "factorio-2ish",
 	"version": "0.1.0",
 	"factorio_version": "1.1",
 	"title": "Factorio 2'ish ",
 	"author": "SetazeR",
+	"source": "https://github.com/setazer/FactorioMods",
 	"contact": "",
-	"homepage": "",
+	"homepage": "https://github.com/setazer/FactorioMods",
 	"description": "Modpack with features that will be implemented in Factorio 2.0 core game",
 	"dependencies": [
-		"RemoteConfiguration >= 1.2.3",
-		"PowerPole32 >= 1.0.4",
-		"WireShortcuts >= 1.1.13"
+		"? RemoteConfiguration",
+		"? PowerPole32",
+		"? WireShortcuts"
 ]
 }
