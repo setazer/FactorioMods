@@ -1,3 +1,9 @@
+Version: 0.382.1
+Date: 27.10.2023
+  Changes:
+  - Added AutoTrash.
+  - Changed version numeration as to follow FFFs
+
 Version: 0.1.2
 Date: 27.10.2023
   Changes:
