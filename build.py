@@ -34,5 +34,8 @@ with zipfile.ZipFile(zip_name, 'w', zipfile.ZIP_DEFLATED) as zipf:
 shutil.rmtree(build_path, ignore_errors=True)
 
 print('Build complete:', zip_name.absolute().as_uri())
+
+for old_build in factorio_path.glob(f'{name}*.zip'):
+    old_build.unlink()
 shutil.copyfile(zip_name, factorio_path / zip_name.name)
 

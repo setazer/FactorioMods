@@ -1,6 +1,6 @@
 {
 	"name": "factorio-2ish",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"factorio_version": "1.1",
 	"title": "Factorio 2'ish ",
 	"author": "SetazeR",
@@ -13,6 +13,7 @@
 		"? PowerPole32",
 		"? WireShortcuts",
 		"? GhostOnWater",
-		"? ModuleInserter"
+		"? ModuleInserter",
+		"? TintedGhosts"
 ]
 }
