@@ -1,20 +1,26 @@
 {
 	"name": "factorio-2ish",
-	"version": "0.382.1",
+	"version": "0.383.1",
 	"factorio_version": "1.1",
 	"title": "Factorio 2'ish ",
 	"author": "SetazeR",
 	"source": "https://github.com/setazer/FactorioMods",
 	"contact": "",
 	"homepage": "https://github.com/setazer/FactorioMods",
-	"description": "Modpack with features that will be implemented in Factorio 2.0 core game",
+	"description": "Modpack with features that will be implemented in Factorio 2.0 core game. Some mods allow even more things than what is promised in core game.",
 	"dependencies": [
 		"? RemoteConfiguration",
 		"? PowerPole32",
 		"? WireShortcuts",
 		"? GhostOnWater",
 		"? ModuleInserter",
+		"? ModuleInserterSimplified",
 		"? TintedGhosts",
-		"? AutoTrash"
-]
+		"? AutoTrash",
+		"? DestructiveBlueprints",
+		"? simple_landfill_mining"
+	],
+    "package": {
+        "sync_portal_details": true
+    }
 }
