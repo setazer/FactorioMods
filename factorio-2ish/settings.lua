@@ -1,8 +1,3 @@
--- AAI Industies teal tint
---change_default("tg-ghost-tint", {r = 0.3, g = 0.6, b = 0.6, a = 0.3})
--- no such setting yet
---change_default("tg-tile-ghost-tint", {r = 0.3, g = 0.6, b = 0.6, a = 0.3})
-
 if mods.TintedGhosts then
     if not data.raw["color-setting"]["tg-tile-ghost-tint"] then
         data:extend({

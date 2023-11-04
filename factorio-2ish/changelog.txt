@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.383.2
+Date: 04.11.2023
+  Changes:
+    - Added Shortcuts for 1.1 (defaulted settings to only add spidertron, artillery and discharge remotes)
+---------------------------------------------------------------------------------------------------
 Version: 0.383.1
 Date: 03.11.2023
   Changes:
