@@ -1,0 +1,19 @@
+{
+	"name": "laborat-revived",
+	"version": "0.1.0",
+	"title": "BiusArt Lab graphics revived",
+	"author": "SetazeR",
+	"homepage": "",
+	"description": "Original mod by BiusArt, revived for 1.1.\nJust changes the standart Lab sprite.\nПросто заменяет стандартный спрайт лаборатории.",
+	"factorio_version": "1.1",
+	"dependencies": [
+		"! DiscoScience",
+		"! laborat",
+		"? comb",
+		"? BigLab",
+		"? LiquifyScienceandLab",
+		"? bobtech",
+		"? ShinyBobGFX",
+		"? space-exploration"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"name": "b_light_poles-revived",
+	"version": "0.1.0",
+	"title": "BiusArt light poles revived",
+	"author": "SetazeR",
+	"homepage": "",
+	"description": "Original mod by BiusArt, revived for 1.1.\nAdds light poles with different lighting",
+	"factorio_version": "1.1",
+    "dependencies": [
+		"base >= 1.1",
+		"! b_light_poles"
+	]
+}
