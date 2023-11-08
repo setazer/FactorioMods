@@ -1,6 +1,6 @@
 {
 	"name": "factorio-2ish",
-	"version": "0.383.4",
+	"version": "0.383.5",
 	"factorio_version": "1.1",
 	"title": "Factorio 2'ish ",
 	"author": "SetazeR",
@@ -22,7 +22,8 @@
 		"? simple_landfill_mining",
 		"? beautiful_bridge_railway",
 		"? janky-quality",
-		"? CursorEnhancements"
+		"? CursorEnhancements",
+		"? AutoCircuit"
 	],
     "package": {
         "sync_portal_details": true

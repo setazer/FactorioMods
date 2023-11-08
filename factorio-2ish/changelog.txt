@@ -1,47 +1,52 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.383.5
+Date: 08. 11. 2023
+  Changes:
+    - Added AutoCircuit
+---------------------------------------------------------------------------------------------------
 Version: 0.383.4
-Date: 06.11.2023
+Date: 08. 11. 2023
   Changes:
     - Added Cursor Enhancements
 ---------------------------------------------------------------------------------------------------
 Version: 0.383.3
-Date: 06.11.2023
+Date: 06. 11. 2023
   Changes:
     - Added Beautiful Bridge Railway and Janky Quality
 ---------------------------------------------------------------------------------------------------
 Version: 0.383.2
-Date: 04.11.2023
+Date: 04. 11. 2023
   Changes:
     - Added Shortcuts for 1.1 (defaulted settings to only add spidertron, artillery and discharge remotes)
 ---------------------------------------------------------------------------------------------------
 Version: 0.383.1
-Date: 03.11.2023
+Date: 03. 11. 2023
   Changes:
     - Added DestructiveBlueprints & Simple Landfill Mining
 ---------------------------------------------------------------------------------------------------
 Version: 0.382.2
-Date: 02.11.2023
+Date: 02. 11. 2023
   Changes:
     - Added ModuleInserterSimplified as alternative to ModuleInserter
     - Updated descriptions and readme
 ---------------------------------------------------------------------------------------------------
 Version: 0.382.1
-Date: 27.10.2023
+Date: 27. 10. 2023
   Changes:
     - Added AutoTrash.
     - Changed version numeration as to follow FFFs
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
-Date: 27.10.2023
+Date: 27. 10. 2023
   Changes:
     - Added TintedGhost and redefined default color for it. Also added tint color for tiles (until original mod maker hopefully does it later too).
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
-Date: 23.10.2023
+Date: 23. 10. 2023
   Changes:
     - Added GhostOnWater & ModuleInserter (thx to https://www.reddit.com/r/Factoriohno/comments/1773dni/whos_next/)
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
-Date: 23.10.2023
+Date: 23. 10. 2023
   Changes:
     - Initial release

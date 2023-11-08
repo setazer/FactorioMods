@@ -5,6 +5,7 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
 #### QoL Mods:
  + [Power Pole 32](https://mods.factorio.com/mod/PowerPole32) - big poles have 32 tile range ([FFF-377](https://www.factorio.com/blog/post/fff-377))
  + [Wire Shortucts](https://mods.factorio.com/mod/WireShortcuts) - access to all wires without actually crafting them ([FFF-379](https://www.factorio.com/blog/post/fff-379))
+ + [Auto Circuit](https://mods.factorio.com/mod/AutoCircuit) - extend red and green wires to newly built power poles ([FFF-379](https://www.factorio.com/blog/post/fff-379))
  + [Shortucts For 1.1](https://mods.factorio.com/mod/Shortcuts-ick) - access to spidertron, artillery and static discharge remotes ([FFF-379](https://www.factorio.com/blog/post/fff-379))
  + [Remote Configuration](https://mods.factorio.com/mod/RemoteConfiguration) - configuring stuff from map view over long distances ([FFF-380](https://www.factorio.com/blog/post/fff-380))
  + [Module Inserter](https://mods.factorio.com/mod/ModuleInserter) OR [Module Inserter Simplified](https://mods.factorio.com/mod/ModuleInserterSimplified) - order bots to insert modules into assemblers ([FFF-380](https://www.factorio.com/blog/post/fff-380))
