@@ -8,14 +8,14 @@ import zipfile
 factorio_path = pathlib.Path(os.getenv('APPDATA')) / 'Factorio' / 'mods'
 
 
-def build_mod(path):
+def build_mod(path, out_path):
     # Folder shenanigans and getting actual name
     name = path.name
     with (path / 'info.json').open('r') as f:
         info = json.load(f)
     version = info['version']
     target_name = f'{name}_{version}'
-    out_path = pathlib.Path('out')
+
     build_path = out_path / target_name
 
     # prepare files for zip
@@ -30,9 +30,8 @@ def build_mod(path):
             rel_path = item.relative_to(out_path)
             zipf.write(item, rel_path)
 
-    # clean build dir
+    # remove build dir
     shutil.rmtree(build_path, ignore_errors=True)
-
     print('Build complete:', zip_name.absolute().as_uri())
 
     for old_build in factorio_path.glob(f'{name}*.zip'):
@@ -41,9 +40,13 @@ def build_mod(path):
 
 
 if __name__ == '__main__':
+    out_path = pathlib.Path('out')
+
+    # clean out dir
+    shutil.rmtree(out_path, ignore_errors=True)
     for mod_path in pathlib.Path.cwd().iterdir():
         if not mod_path.is_dir():
             continue
         if mod_path.name == 'out' or mod_path.name.startswith('.'):
             continue
-        build_mod(mod_path)
+        build_mod(mod_path, out_path)

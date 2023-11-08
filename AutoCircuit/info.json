@@ -1,0 +1,12 @@
+{
+    "name": "AutoCircuit",
+    "version": "0.1.0",
+    "title": "Auto Circuit",
+	"author": "SetazeR",
+	"source": "https://github.com/setazer/FactorioMods",
+	"contact": "",
+	"homepage": "https://github.com/setazer/FactorioMods",
+    "factorio_version": "1.1",
+    "dependencies": ["! LD_AutoCircuit"],
+    "description": "Original mod LD AutoCircuit by Omnifarious. Adds a shortcut toggle that will automatically string red and green wire from power poles that already have red and green wire to newly placed poles."
+}
