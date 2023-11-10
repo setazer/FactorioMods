@@ -1,0 +1,9 @@
+{
+	"name": "colorimetric-luts-revived",
+	"version": "0.1.0",
+	"title": "Colorimetric LUTs revived",
+	"author": "SetazeR",
+	"factorio_version": "1.1",
+	"dependencies": ["base >= 1.1"],
+	"description": "Original mod by Tynach, revived for 1.1\nI was unhappy with the default night LUTs, including the night vision LUT. So I made my own, trying to keep it as similar to the original's intent as possible while using color space conversion math to be as accurate to life as possible.\n\nAll LUTs which change the white balance use chromatic adaptation to shift the colors toward a different white point. I choose white points from the CIE's 'Illuminant series D', also known as the 'daylight locus', which is meant to represent natural daylight at different color temperatures. Luminosity is scaled roughly identically to the default LUTs. All color operations were performed in a linear light scale, then converted back into sRGB for the LUTs themselves.\n\nThe main LUTs modified are the nighttime ones, though I also added LUTs for night vision equipment and dawn/sunset (the latter which is now actually used by the game). LUT details:\n* lut-night.png - Color temperature: 25000K; darkest it gets.\n* lut-riseset.png - Color temperature: 4000K; dawn and sunset, not quite so dark.\n* night.png - Same as lut-night, but a tiny bit brighter for the map view.\n* nightvision.png - Simulates a lowered gamut display, and is only very slightly dimmer than standard full daylight ('identity' LUT)."
+}
