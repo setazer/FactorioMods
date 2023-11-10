@@ -1,0 +1,29 @@
+{
+  "entity":
+  [
+    ["stolb", "light_pole-w"],
+    ["stolb-2", "light_pole-r"],
+    ["stolb-3", "light_pole-g"],
+    ["stolb-4", "light_pole-o"],
+    ["stolb-5", "light_pole-b"],
+    ["stolb-r", "light_pole-rgb"]
+  ],
+  "item":
+  [
+    ["stolb", "light_pole-w"],
+    ["stolb-2", "light_pole-r"],
+    ["stolb-3", "light_pole-g"],
+    ["stolb-4", "light_pole-o"],
+    ["stolb-5", "light_pole-b"],
+    ["stolb-r", "light_pole-rgb"]
+  ],
+  "recipe":
+  [
+    ["stolb", "light_pole-w"],
+    ["stolb-2", "light_pole-r"],
+    ["stolb-3", "light_pole-g"],
+    ["stolb-4", "light_pole-o"],
+    ["stolb-5", "light_pole-b"],
+    ["stolb-r", "light_pole-rgb"]
+  ]
+}

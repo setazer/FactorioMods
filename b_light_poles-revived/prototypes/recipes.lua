@@ -1,7 +1,7 @@
 data:extend({
 	{
 	type = "recipe",
-	name = "stolb",
+	name = "light_pole-w",
 	energy_required = 1,
 	enabled = false,
 	ingredients =
@@ -9,32 +9,32 @@ data:extend({
 				{"iron-stick", 2},
 				{"small-lamp", 1}
 			},
-	result = "stolb"
+	result = "light_pole-w"
 	}
 })
 
-local stolb_re_2 = table.deepcopy(data.raw['recipe']['stolb'])
-stolb_re_2.name = "stolb-2"
-stolb_re_2.result = "stolb-2"
-data:extend({stolb_re_2})
+local light_pole_r = table.deepcopy(data.raw['recipe']['light_pole-w'])
+light_pole_r.name = "light_pole-r"
+light_pole_r.result = "light_pole-r"
+data:extend({light_pole_r})
 
-local stolb_re_3 = table.deepcopy(data.raw['recipe']['stolb'])
-stolb_re_3.name = "stolb-3"
-stolb_re_3.result = "stolb-3"
-data:extend({stolb_re_3})
+local light_pole_g = table.deepcopy(data.raw['recipe']['light_pole-w'])
+light_pole_g.name = "light_pole-g"
+light_pole_g.result = "light_pole-g"
+data:extend({light_pole_g})
 
-local stolb_re_4 = table.deepcopy(data.raw['recipe']['stolb'])
-stolb_re_4.name = "stolb-4"
-stolb_re_4.result = "stolb-4"
-data:extend({stolb_re_4})
+local light_pole_b = table.deepcopy(data.raw['recipe']['light_pole-w'])
+light_pole_b.name = "light_pole-b"
+light_pole_b.result = "light_pole-b"
+data:extend({light_pole_b})
 
-local stolb_re_5 = table.deepcopy(data.raw['recipe']['stolb'])
-stolb_re_5.name = "stolb-5"
-stolb_re_5.result = "stolb-5"
-data:extend({stolb_re_5})
+local light_pole_o = table.deepcopy(data.raw['recipe']['light_pole-w'])
+light_pole_o.name = "light_pole-o"
+light_pole_o.result = "light_pole-o"
+data:extend({light_pole_o})
 
-local stolb_re_r = table.deepcopy(data.raw['recipe']['stolb'])
-stolb_re_r.name = "stolb-r"
-stolb_re_r.result = "stolb-r"
-data:extend({stolb_re_r})
+local light_pole_rgb = table.deepcopy(data.raw['recipe']['light_pole-w'])
+light_pole_rgb.name = "light_pole-rgb"
+light_pole_rgb.result = "light_pole-rgb"
+data:extend({light_pole_rgb})
 

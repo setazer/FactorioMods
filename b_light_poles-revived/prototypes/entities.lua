@@ -1,14 +1,17 @@
 local util = require "util"
-local stolb_1 = table.deepcopy(data.raw['electric-pole']['medium-electric-pole'])
-stolb_1.name = "stolb"
-stolb_1.minable.result = "stolb"
-stolb_1.icon_size = 64
-stolb_1.icon = "__b_light_poles-revived__/graphics/icons/ico_w.png"
-stolb_1.maximum_wire_distance = 16 -- длинна на которой провод будет цеплятся по умолчанию 9
-stolb_1.supply_area_distance = 0.2 -- область вокруг столба, которую он покрывает по умолчанию 3.5
-stolb_1.collision_box = {{-0.4, -0.4}, {0.4, 0.4}}
-stolb_1.selection_box = {{-0.4, -0.4}, {0.4, 0.4}}
-stolb_1.pictures = -- графика
+
+local show_wires = settings.startup["show-pole-lamp-wires"].value
+
+local light_pole_w = table.deepcopy(data.raw['electric-pole']['medium-electric-pole'])
+light_pole_w.name = "light_pole-w"
+light_pole_w.minable.result = "light_pole-w"
+light_pole_w.icon_size = 64
+light_pole_w.icon = "__b_light_poles-revived__/graphics/icons/ico_w.png"
+light_pole_w.maximum_wire_distance = 16 -- длинна на которой провод будет цеплятся по умолчанию 9
+light_pole_w.supply_area_distance = 0.2 -- область вокруг столба, которую он покрывает по умолчанию 3.5
+light_pole_w.collision_box = { { -0.4, -0.4}, { 0.4, 0.4}}
+light_pole_w.selection_box = { { -0.4, -0.4}, { 0.4, 0.4}}
+light_pole_w.pictures = -- графика
 	{
 		layers =
 		{
@@ -33,9 +36,9 @@ stolb_1.pictures = -- графика
 		}
 		}
 	}
-stolb_1.radius_visualisation_picture.width = 1
-stolb_1.radius_visualisation_picture.height= 1
-stolb_1.connection_points = -- подключение проводов
+light_pole_w.radius_visualisation_picture.width = 1
+light_pole_w.radius_visualisation_picture.height= 1
+light_pole_w.connection_points = -- подключение проводов
 	{
 		{
 			shadow =
@@ -94,163 +97,49 @@ stolb_1.connection_points = -- подключение проводов
 			}
 		}
 	}
-data:extend({stolb_1})
+light_pole_w.draw_copper_wires = show_wires
+data:extend({ light_pole_w })
 
-local stolb_2 = table.deepcopy(data.raw['electric-pole']['stolb'])
-stolb_2.name = "stolb-2"
-stolb_2.icon = "__b_light_poles-revived__/graphics/icons/ico_r.png"
-stolb_2.pictures = -- графика
-	{
-		layers =
-		{
-		{
-			filename = "__b_light_poles-revived__/graphics/entities/hr_medium-electric-pole_r.png",
-			priority = "extra-high",
-			width = 84,
-			height = 252,
-			direction_count = 4,
-			shift = util.by_pixel(0, -80),
-			scale = 0.65
-		},
-		{
-			filename = "__b_light_poles-revived__/graphics/entities/hr-medium-electric-pole-shadow.png",
-			priority = "extra-high",
-			width = 280,
-			height = 64,
-			direction_count = 4,
-			shift = util.by_pixel(64, 1),
-			scale = 0.6,
-			draw_as_shadow = true
-		}
-		}
-	}
-stolb_2.minable.result = "stolb-2"
-data:extend({stolb_2})
+local light_pole_r = table.deepcopy(data.raw['electric-pole']['light_pole-w'])
+light_pole_r.name = "light_pole-r"
+light_pole_r.minable.result = "light_pole-r"
+light_pole_r.icon = "__b_light_poles-revived__/graphics/icons/ico_r.png"
+light_pole_r.pictures.layers[1].filename = "__b_light_poles-revived__/graphics/entities/hr_medium-electric-pole_r.png"
+light_pole_r.pictures.layers[2].filename = "__b_light_poles-revived__/graphics/entities/hr-medium-electric-pole-shadow.png"
+data:extend({light_pole_r})
 
-local stolb_3 = table.deepcopy(data.raw['electric-pole']['stolb'])
-stolb_3.name = "stolb-3"
-stolb_3.icon = "__b_light_poles-revived__/graphics/icons/ico_g.png"
-stolb_3.pictures = -- графика
-	{
-		layers =
-		{
-		{
-			filename = "__b_light_poles-revived__/graphics/entities/hr_medium-electric-pole_g.png",
-			priority = "extra-high",
-			width = 84,
-			height = 252,
-			direction_count = 4,
-			shift = util.by_pixel(0, -80),
-			scale = 0.65
-		},
-		{
-			filename = "__b_light_poles-revived__/graphics/entities/hr-medium-electric-pole-shadow.png",
-			priority = "extra-high",
-			width = 280,
-			height = 64,
-			direction_count = 4,
-			shift = util.by_pixel(64, 1),
-			scale = 0.6,
-			draw_as_shadow = true
-		}
-		}
-	}
-stolb_3.minable.result = "stolb-3"
-data:extend({stolb_3})
+local light_pole_g = table.deepcopy(data.raw['electric-pole']['light_pole-w'])
+light_pole_g.name = "light_pole-g"
+light_pole_g.minable.result = "light_pole-g"
+light_pole_g.icon = "__b_light_poles-revived__/graphics/icons/ico_g.png"
+light_pole_g.pictures.layers[1].filename = "__b_light_poles-revived__/graphics/entities/hr_medium-electric-pole_g.png"
+light_pole_g.pictures.layers[2].filename = "__b_light_poles-revived__/graphics/entities/hr-medium-electric-pole-shadow.png"
+data:extend({light_pole_g})
 
-local stolb_4 = table.deepcopy(data.raw['electric-pole']['stolb'])
-stolb_4.name = "stolb-4"
-stolb_4.icon = "__b_light_poles-revived__/graphics/icons/ico_o.png"
-stolb_4.pictures = -- графика
-	{
-		layers =
-		{
-		{
-			filename = "__b_light_poles-revived__/graphics/entities/hr_medium-electric-pole_o.png",
-			priority = "extra-high",
-			width = 84,
-			height = 252,
-			direction_count = 4,
-			shift = util.by_pixel(0, -80),
-			scale = 0.65
-		},
-		{
-			filename = "__b_light_poles-revived__/graphics/entities/hr-medium-electric-pole-shadow.png",
-			priority = "extra-high",
-			width = 280,
-			height = 64,
-			direction_count = 4,
-			shift = util.by_pixel(64, 1),
-			scale = 0.6,
-			draw_as_shadow = true
-		}
-		}
-	}
-stolb_4.minable.result = "stolb-4"
-data:extend({stolb_4})
+local light_pole_o = table.deepcopy(data.raw['electric-pole']['light_pole-w'])
+light_pole_o.name = "light_pole-o"
+light_pole_o.minable.result = "light_pole-o"
+light_pole_o.icon = "__b_light_poles-revived__/graphics/icons/ico_o.png"
+light_pole_o.pictures.layers[1].filename = "__b_light_poles-revived__/graphics/entities/hr_medium-electric-pole_o.png"
+light_pole_o.pictures.layers[2].filename = "__b_light_poles-revived__/graphics/entities/hr-medium-electric-pole-shadow.png"
+data:extend({light_pole_o})
 
-local stolb_5 = table.deepcopy(data.raw['electric-pole']['stolb'])
-stolb_5.name = "stolb-5"
-stolb_5.icon = "__b_light_poles-revived__/graphics/icons/ico_b.png"
-stolb_5.pictures = -- графика
-	{
-		layers =
-		{
-		{
-			filename = "__b_light_poles-revived__/graphics/entities/hr_medium-electric-pole_b.png",
-			priority = "extra-high",
-			width = 84,
-			height = 252,
-			direction_count = 4,
-			shift = util.by_pixel(0, -80),
-			scale = 0.65
-		},
-		{
-			filename = "__b_light_poles-revived__/graphics/entities/hr-medium-electric-pole-shadow.png",
-			priority = "extra-high",
-			width = 280,
-			height = 64,
-			direction_count = 4,
-			shift = util.by_pixel(64, 1),
-			scale = 0.6,
-			draw_as_shadow = true
-		}
-		}
-	}
-stolb_5.minable.result = "stolb-5"
-data:extend({stolb_5})
+local light_pole_b = table.deepcopy(data.raw['electric-pole']['light_pole-w'])
+light_pole_b.name = "light_pole-b"
+light_pole_b.minable.result = "light_pole-b"
+light_pole_b.icon = "__b_light_poles-revived__/graphics/icons/ico_b.png"
+light_pole_b.pictures.layers[1].filename = "__b_light_poles-revived__/graphics/entities/hr_medium-electric-pole_b.png"
+light_pole_b.pictures.layers[2].filename = "__b_light_poles-revived__/graphics/entities/hr-medium-electric-pole-shadow.png"
+data:extend({light_pole_b})
 
 
-local stolb_r = table.deepcopy(data.raw['electric-pole']['stolb'])
-stolb_r.name = "stolb-r"
-stolb_r.icon = "__b_light_poles-revived__/graphics/icons/ico_rgb.png"
-stolb_r.pictures = -- графика
-{
-	layers =
-	{
-		{
-			filename = "__b_light_poles-revived__/graphics/entities/hr_medium-electric-pole_w.png",
-			priority = "extra-high",
-			width = 84,
-			height = 252,
-			direction_count = 4,
-			shift = util.by_pixel(0, -80),
-			scale = 0.65
-		},
-		{
-			filename = "__b_light_poles-revived__/graphics/entities/hr-medium-electric-pole-shadow.png",
-			priority = "extra-high",
-			width = 280,
-			height = 64,
-			direction_count = 4,
-			shift = util.by_pixel(64, 1),
-			scale = 0.6,
-			draw_as_shadow = true
-		}
-	}
-}
-stolb_r.minable.result = "stolb-r"
-data:extend({stolb_r})
+local light_pole_rgb = table.deepcopy(data.raw['electric-pole']['light_pole-w'])
+light_pole_rgb.name = "light_pole-rgb"
+light_pole_rgb.minable.result = "light_pole-rgb"
+light_pole_rgb.icon = "__b_light_poles-revived__/graphics/icons/ico_rgb.png"
+light_pole_rgb.pictures.layers[1].filename = "__b_light_poles-revived__/graphics/entities/hr_medium-electric-pole_w.png"
+light_pole_rgb.pictures.layers[2].filename = "__b_light_poles-revived__/graphics/entities/hr-medium-electric-pole-shadow.png"
+data:extend({light_pole_rgb})
 
 local lamp_w = table.deepcopy(data.raw["lamp"]["small-lamp"])
 lamp_w.name = "lamp-w"
