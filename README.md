@@ -3,7 +3,7 @@
 ### [Factorio 2'ish](factorio-2ish/README.md)
 Modpack containg QoL and content features expected in Factorio 2.0 update
 
-### AutoCircuit
+### [AutoCircuit](AutoCircuit/README.md)
 [Original mod](https://mods.factorio.com/mod/LD_AutoCircuit) by Omnifarious. Adds a shortcut toggle that will automatically string red and green wire from power poles that already have red and green wire to newly placed poles.
 
 ### BiusArt Light Poles Revived
