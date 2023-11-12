@@ -1,6 +1,6 @@
 {
 	"name": "factorio-2ish",
-	"version": "0.383.5",
+	"version": "0.384.1",
 	"factorio_version": "1.1",
 	"title": "Factorio 2'ish ",
 	"author": "SetazeR",
@@ -23,7 +23,8 @@
 		"? beautiful_bridge_railway",
 		"? janky-quality",
 		"? CursorEnhancements",
-		"? AutoCircuit"
+		"? AutoCircuit",
+		"? pigo-selector-combinator"
 	],
     "package": {
         "sync_portal_details": true

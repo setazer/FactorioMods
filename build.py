@@ -19,7 +19,7 @@ def build_mod(path, out_path):
     build_path = out_path / target_name
 
     # prepare files for zip
-    shutil.copytree(path, build_path, dirs_exist_ok=True)
+    shutil.copytree(path, build_path, ignore=shutil.ignore_patterns('README.md'), dirs_exist_ok=True)
 
     # create zip
     zip_name = out_path / f'{target_name}.zip'
