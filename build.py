@@ -47,6 +47,6 @@ if __name__ == '__main__':
     for mod_path in pathlib.Path.cwd().iterdir():
         if not mod_path.is_dir():
             continue
-        if mod_path.name not in ('out', 'media') or mod_path.name.startswith('.'):
+        if mod_path.name in ('out', 'media') or mod_path.name.startswith('.'):
             continue
         build_mod(mod_path, out_path)

@@ -14,5 +14,13 @@ data:extend({
 		setting_type = "startup",
 		default_value = true,
 		order = "b"
+	},
+
+	{
+		type = "bool-setting",
+		name = "use-straight-poles",
+		setting_type = "startup",
+		default_value = false,
+		order = "c"
 	}
 })
