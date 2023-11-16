@@ -7,7 +7,7 @@ data:extend(
 {
    {
       type = "shortcut",
-      name = "autocircuit-shortcut",
+      name = "ac-shortcut",
       order = "zzz",
       action = "lua",
       technology_to_unlock = technology_to_unlock,
