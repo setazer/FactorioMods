@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 16. 11. 2023
+  Changes:
+    - Added option to string circuit wires to ghosts automatically (disabled by default)
+  Bugfixes:
+    - Fixed crashes when trying placing pole near ghosts that would connect with copper wire
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 16. 11. 2023
   Changes:

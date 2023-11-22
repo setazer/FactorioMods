@@ -12,5 +12,12 @@ data:extend({
 		setting_type = "runtime-per-user",
 		default_value = false,
 		order = "b"
+	},
+	{
+		type = "bool-setting",
+		name = "ac-string-to-ghosts",
+		setting_type = "runtime-per-user",
+		default_value = false,
+		order = "c"
 	}
 })
