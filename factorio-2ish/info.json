@@ -1,6 +1,6 @@
 {
 	"name": "factorio-2ish",
-	"version": "0.385.1",
+	"version": "0.386.1",
 	"factorio_version": "1.1",
 	"title": "Factorio 2'ish ",
 	"author": "SetazeR",
@@ -9,23 +9,24 @@
 	"homepage": "https://github.com/setazer/FactorioMods",
 	"description": "Modpack with features that will be implemented in Factorio 2.0 core game. Some mods allow even more things than what is promised in core game.",
 	"dependencies": [
-		"? RemoteConfiguration",
-		"? PowerPole32",
-		"? WireShortcuts",
-		"? Shortcuts-ick",
+		"? AutoCircuit",
+		"? AutoTrash",
+		"? CursorEnhancements",
+		"? DestructiveBlueprints",
 		"? GhostOnWater",
+		"? LogisticRequestManager",
 		"? ModuleInserter",
 		"? ModuleInserterSimplified",
+		"? PowerPole32",
+		"? RemoteConfiguration",
+		"? Shortcuts-ick",
 		"? TintedGhosts",
-		"? AutoTrash",
-		"? LogisticRequestManager",
-		"? DestructiveBlueprints",
-		"? simple_landfill_mining",
+		"? WireShortcuts",
 		"? beautiful_bridge_railway",
 		"? janky-quality",
-		"? CursorEnhancements",
-		"? AutoCircuit",
-		"? pigo-selector-combinator"
+		"? pigo-selector-combinator",
+		"? remote-requests",
+		"? simple_landfill_mining"
 	],
     "package": {
         "sync_portal_details": true
