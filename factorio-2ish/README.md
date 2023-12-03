@@ -12,14 +12,17 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
  + [Module Inserter](https://mods.factorio.com/mod/ModuleInserter) OR [Module Inserter Simplified](https://mods.factorio.com/mod/ModuleInserterSimplified) - order bots to insert modules into assemblers ([FFF-380](https://www.factorio.com/blog/post/fff-380))
  + [Ghost On Water](https://mods.factorio.com/mod/GhostOnWater) - build blueprints on water ([FFF-380](https://www.factorio.com/blog/post/fff-380))
  + [Tinted Ghosts](https://mods.factorio.com/mod/TintedGhosts) - tint ghosts any color ([FFF-380](https://www.factorio.com/blog/post/fff-380)) (+ added customization of tiles until supported by mod itself)
+ + [Redo](https://mods.factorio.com/mod/redo) - redo stuff after undoing (was spotted as easter egg on screenshot from [FFF-380](https://www.factorio.com/blog/post/fff-380))
  + [Auto Trash](https://mods.factorio.com/mod/AutoTrash) or [LogisticRequestManager](https://mods.factorio.com/mod/LogisticRequestManager) - logistic requests manipulation (saving presets, auto-trash unrequested) ([FFF-382](https://www.factorio.com/blog/post/fff-382))
  + [Destructive Blueprints](https://mods.factorio.com/mod/DestructiveBlueprints) - build over existing buildings ([FFF-383](https://www.factorio.com/blog/post/fff-383))
  + [Simple Landfill Mining](https://mods.factorio.com/mod/simple_landfill_mining) - mine landfill after placement ([FFF-383](https://www.factorio.com/blog/post/fff-383))
+ + [Better Cliff Hitboxes](https://mods.factorio.com/mod/better-cliff-hitboxes) - not so annoying cliff hitboxes as per suggestion in ([FFF-386](https://www.factorio.com/blog/post/fff-386))
 
 #### Content Mods:
  + [Janky Quality](https://mods.factorio.com/mod/janky-quality) - implementation of quality system ([FFF-375](https://www.factorio.com/blog/post/fff-375))
  + [Beautiful Bridge Railway](https://mods.factorio.com/mod/beautiful_bridge_railway) - place rails on water (elevated rails would be able to cross water, might add something similar) ([FFF-378](https://www.factorio.com/blog/post/fff-378))
  + [Selector Combinator](https://mods.factorio.com/mod/pigo-selector-combinator) - new selector combinator from [FFF-384](https://www.factorio.com/blog/post/fff-384)
+ + [Big Mining Drill](https://mods.factorio.com/mod/bigminingdrill) - new big mining drill with integrated productivity ([FFF-387](https://www.factorio.com/blog/post/fff-387))
 
 #### Not-FFF related:
  + [CursorEnhancements](https://mods.factorio.com/mod/CursorEnhancements) - more qol cursor interactions ([Implemented Suggestion Post](https://forums.factorio.com/viewtopic.php?p=567550#p567550))
