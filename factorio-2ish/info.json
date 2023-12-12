@@ -1,6 +1,6 @@
 {
 	"name": "factorio-2ish",
-	"version": "0.387.1",
+	"version": "0.388.1",
 	"factorio_version": "1.1",
 	"title": "Factorio 2'ish ",
 	"author": "SetazeR",
@@ -29,7 +29,10 @@
 		"? simple_landfill_mining",
 		"? redo",
 		"? better-cliff-hitboxes",
-		"? bigminingdrill"
+		"? bigminingdrill",
+		"? GDIW",
+		"? show-max-underground-distance",
+		"? QwrtLamp"
 	],
     "package": {
         "sync_portal_details": true

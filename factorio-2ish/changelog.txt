@@ -1,6 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.388.1
+Date: 12. 12. 2023
+  Changes:
+    - Added GDIW
+    - Added Show Max Underground Distance
+    - Added Alex's RGB Lamp
+---------------------------------------------------------------------------------------------------
 Version: 0.387.1
-Date: 26. 11. 2023
+Date: 03. 12. 2023
   Changes:
     - Added Redo because of easter egg in FFF-380
     - Added 2.0 Big Electric Mining Drill
