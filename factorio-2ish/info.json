@@ -1,6 +1,6 @@
 {
 	"name": "factorio-2ish",
-	"version": "0.388.1",
+	"version": "0.389.1",
 	"factorio_version": "1.1",
 	"title": "Factorio 2'ish ",
 	"author": "SetazeR",
@@ -32,7 +32,8 @@
 		"? bigminingdrill",
 		"? GDIW",
 		"? show-max-underground-distance",
-		"? QwrtLamp"
+		"? QwrtLamp",
+		"? TrainGroups"
 	],
     "package": {
         "sync_portal_details": true
