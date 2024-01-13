@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.393.1
+Date: 13. 01. 2024
+  Changes:
+    - Added Advanced Belts, Deadlock Stacking, Simple Compress and Blueprint Variables
+    - Removed Alex's RGB due to reported heavy UPS abuse
+---------------------------------------------------------------------------------------------------
 Version: 0.389.2
 Date: 15. 12. 2023
   Changes:
