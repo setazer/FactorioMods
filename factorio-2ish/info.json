@@ -1,6 +1,6 @@
 {
 	"name": "factorio-2ish",
-	"version": "0.393.1",
+	"version": "0.393.2",
 	"factorio_version": "1.1",
 	"title": "Factorio 2'ish ",
 	"author": "SetazeR",
@@ -30,6 +30,7 @@
 		"? beautiful_bridge_railway",
 		"? better-cliff-hitboxes",
 		"? bigminingdrill",
+		"? big-mining-drill",
 		"? blueprint-variables",
 		"? deadlock-beltboxes-loaders",
 		"? janky-quality",

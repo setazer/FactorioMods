@@ -27,7 +27,7 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
  + [Janky Quality](https://mods.factorio.com/mod/janky-quality) - implementation of quality system ([FFF-375](https://www.factorio.com/blog/post/fff-375))
  + [Beautiful Bridge Railway](https://mods.factorio.com/mod/beautiful_bridge_railway) - place rails on water (elevated rails would be able to cross water, might add something similar) ([FFF-378](https://www.factorio.com/blog/post/fff-378))
  + [Selector Combinator](https://mods.factorio.com/mod/pigo-selector-combinator) - new selector combinator from [FFF-384](https://www.factorio.com/blog/post/fff-384)
- + [Big Mining Drill](https://mods.factorio.com/mod/bigminingdrill) - new big mining drill with integrated productivity ([FFF-387](https://www.factorio.com/blog/post/fff-387))
+ + [Big Mining Drill](https://mods.factorio.com/mod/bigminingdrill) or [AAI Big Mining Drill](https://mods.factorio.com/mod/big-mining-drill) - new big mining drill with integrated productivity ([FFF-387](https://www.factorio.com/blog/post/fff-387)) (+ settings to adjust AAI Mining drill to 2.0 vartiant)
  + [Advanced Belts](https://mods.factorio.com/mod/AdvancedBelts) - higher tier belts ([FFF-393](https://www.factorio.com/blog/post/fff-393))
  + [Deadlock's Stacking Beltboxes & Compact Loaders ](https://mods.factorio.com/mod/deadlock-beltboxes-loaders) or [Simple Compress](https://mods.factorio.com/mod/SimpleCompress) - item stacking for higher throughput ([FFF-393](https://www.factorio.com/blog/post/fff-393))
 
