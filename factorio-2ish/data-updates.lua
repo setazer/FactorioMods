@@ -26,3 +26,17 @@ if mods["big-mining-drill"] and settings.startup["f2-adjust-aai-big-drill"] then
         }
     end
 end
+
+if mods.AdvancedBelts and settings.startup["f2-hide-tiers-above-4"] then
+    local recipes = {"ultimate-belt", "high-speed-belt", "ultimate-splitter",
+                     "high-speed-splitter", "ultimate-underground", "high-speed-underground"}
+
+    for _, recipe in ipairs(recipes) do
+        data.raw["recipe"][recipe].hidden = true
+        data.raw["recipe"][recipe].hide_from_stats = true
+        data.raw["recipe"][recipe].hide_from_player_crafting = true
+    end
+
+    data.raw["technology"]["ultimate-logistics"].hidden = true
+    data.raw["technology"]["high-speed-logistics"].hidden = true
+end
