@@ -1,6 +1,6 @@
 {
 	"name": "factorio-2ish",
-	"version": "0.393.3",
+	"version": "0.394.1",
 	"factorio_version": "1.1",
 	"title": "Factorio 2'ish ",
 	"author": "SetazeR",
@@ -16,6 +16,7 @@
 		"? DestructiveBlueprints",
 		"? GDIW",
 		"? GhostOnWater",
+		"? Kux-BlueprintExtensions",
 		"? LogisticRequestManager",
 		"? ModuleInserter",
 		"? ModuleInserterSimplified",
