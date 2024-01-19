@@ -17,13 +17,15 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
  + [Destructive Blueprints](https://mods.factorio.com/mod/DestructiveBlueprints) - build over existing buildings ([FFF-383](https://www.factorio.com/blog/post/fff-383))
  + [Simple Landfill Mining](https://mods.factorio.com/mod/simple_landfill_mining) - mine landfill after placement ([FFF-383](https://www.factorio.com/blog/post/fff-383))
  + [Better Cliff Hitboxes](https://mods.factorio.com/mod/better-cliff-hitboxes) - not so annoying cliff hitboxes as per suggestion in ([FFF-386](https://www.factorio.com/blog/post/fff-386))
- + [GDIW](https://mods.factorio.com/mod/GDIW) - switching inputs/outputs of machines ([FFF-388](https://www.factorio.com/blog/post/fff-388))
+ + [Fluid Permutations](https://mods.factorio.com/mod/fluid_permutations) or [GDIW](https://mods.factorio.com/mod/GDIW) - switching inputs/outputs of machines ([FFF-388](https://www.factorio.com/blog/post/fff-388))
  + [Show Max Underground Distance](https://mods.factorio.com/mod/show-max-underground-distance) - maximum range indicator ([FFF-388](https://www.factorio.com/blog/post/fff-388))
  + [Train Groups](https://mods.factorio.com/mod/TrainGroups) - mass managing trains ([FFF-389](https://www.factorio.com/blog/post/fff-389))
  + [Train Control Signals](https://mods.factorio.com/mod/Train_Control_Signals) - train interrupts analogue ([FFF-389](https://www.factorio.com/blog/post/fff-389))
  + [Blueprint Variables](https://mods.factorio.com/mod/blueprint-variables) - essentially parametrized blueprints ([FFF-392](https://www.factorio.com/blog/post/fff-392))
+ + [StackInserterRename](https://mods.factorio.com/mod/StackInserterRename) - rename stack inserters to bulk inserters ([FFF-393](https://www.factorio.com/blog/post/fff-393))
+ + [FilterInsertersBegone](https://mods.factorio.com/mod/FilterInsertersBegone) - make all inserters filtered and hide original ones ([FFF-393](https://www.factorio.com/blog/post/fff-393))
  + [Blueprint Extensions](https://mods.factorio.com/mod/Kux-BlueprintExtensions) - flipping blueprints ([FFF-394](https://www.factorio.com/blog/post/fff-394))
- + [StackInserterRename](https://mods.factorio.com/mod/StackInserterRename) - rename stack inserters to bulk inserters ([FFF-394](https://www.factorio.com/blog/post/fff-394))
+ + [Crafting Combinator Xeraph's Fork](https://mods.factorio.com/mod/crafting_combinator_xeraph) - set or read the recipe of any crafting machine, get ingredients or products of a recipe and more ([FFF-394](https://www.factorio.com/blog/post/fff-394))
 
 #### Content Mods:
  + [Janky Quality](https://mods.factorio.com/mod/janky-quality) - implementation of quality system ([FFF-375](https://www.factorio.com/blog/post/fff-375))
