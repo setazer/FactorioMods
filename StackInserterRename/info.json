@@ -1,0 +1,9 @@
+{
+	"name": "StackInserterRename",
+	"version": "0.1.0",
+	"title": "Stack inserter rename",
+	"author": "SetazeR",
+	"factorio_version": "1.1",
+	"dependencies": ["base >= 1.1"],
+	"description": "Rename stack inserters to bulk inserters as per Factorio 2.0"
+}

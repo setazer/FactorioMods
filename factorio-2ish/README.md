@@ -23,6 +23,7 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
  + [Train Control Signals](https://mods.factorio.com/mod/Train_Control_Signals) - train interrupts analogue ([FFF-389](https://www.factorio.com/blog/post/fff-389))
  + [Blueprint Variables](https://mods.factorio.com/mod/blueprint-variables) - essentially parametrized blueprints ([FFF-392](https://www.factorio.com/blog/post/fff-392))
  + [Blueprint Extensions](https://mods.factorio.com/mod/Kux-BlueprintExtensions) - flipping blueprints ([FFF-394](https://www.factorio.com/blog/post/fff-394))
+ + [StackInserterRename](https://mods.factorio.com/mod/StackInserterRename) - rename stack inserters to bulk inserters ([FFF-394](https://www.factorio.com/blog/post/fff-394))
 
 #### Content Mods:
  + [Janky Quality](https://mods.factorio.com/mod/janky-quality) - implementation of quality system ([FFF-375](https://www.factorio.com/blog/post/fff-375))
