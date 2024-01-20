@@ -39,4 +39,8 @@ if mods.AdvancedBelts and settings.startup["f2-hide-tiers-above-4"] then
 
     data.raw["technology"]["ultimate-logistics"].hidden = true
     data.raw["technology"]["high-speed-logistics"].hidden = true
+
+    data.raw["transport-belt"]["extreme-belt"].next_upgrade = nil
+    data.raw["splitter"]["extreme-splitter"].next_upgrade = nil
+    data.raw["underground-belt"]["extreme-underground"].next_upgrade = nil
 end
