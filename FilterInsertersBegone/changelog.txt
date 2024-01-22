@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 20. 01. 2024
+  Changes:
+    - Tweaked control logic to only force switch to blacklist for whitelist non-filter inserters with empty slots
+---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 20. 01. 2024
   Changes:

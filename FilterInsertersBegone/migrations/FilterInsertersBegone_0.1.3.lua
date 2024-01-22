@@ -1,13 +1,13 @@
 local i = 0
 for _, surface in pairs(game.surfaces) do
     for _, inserter in pairs(surface.find_entities_filtered{type='inserter'}) do
-        if inserter.name ~= 'filter-inserter' and inserter.name ~= 'stack-filter-inserter' then
+        if not string.match(inserter.name, "filter") then
             inserter.inserter_filter_mode = 'blacklist'
         end
     end
 
     for _, inserter in pairs(surface.find_entities_filtered{type='inserter', name={'filter-inserter', 'stack-filter-inserter'}}) do
-        inserter_mode = inserter.inserter_filter_mode
+        local inserter_mode = inserter.inserter_filter_mode
         local replacement = surface.create_entity{
             name = inserter.name == 'filter-inserter' and 'fast-inserter' or 'stack-inserter',
             position = inserter.position,
