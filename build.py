@@ -1,11 +1,13 @@
-
 import json
 import os
-import pathlib
 import shutil
+
+import pathlib
 import zipfile
 
-factorio_path = pathlib.Path(os.getenv('APPDATA')) / 'Factorio' / 'mods'
+from utils import update_2ish
+
+FACTORIO_PATH = pathlib.Path(os.getenv('APPDATA')) / 'Factorio' / 'mods'
 
 
 def build_mod(path, out_path):
@@ -34,9 +36,9 @@ def build_mod(path, out_path):
     shutil.rmtree(build_path, ignore_errors=True)
     print('Build complete:', zip_name.absolute().as_uri())
 
-    for old_build in factorio_path.glob(f'{name}*.zip'):
+    for old_build in FACTORIO_PATH.glob(f'{name}*.zip'):
         old_build.unlink()
-    shutil.copyfile(zip_name, factorio_path / zip_name.name)
+    shutil.copyfile(zip_name, FACTORIO_PATH / zip_name.name)
 
 
 if __name__ == '__main__':
@@ -47,6 +49,10 @@ if __name__ == '__main__':
     for mod_path in pathlib.Path.cwd().iterdir():
         if not mod_path.is_dir():
             continue
-        if mod_path.name in ('out', 'media') or mod_path.name.startswith('.'):
+        if mod_path.name in ('out', 'media') or mod_path.name.startswith(('.', '__')):
             continue
-        build_mod(mod_path, out_path)
+        if mod_path.name == 'factorio-2ish':
+            with update_2ish(mod_path):
+                build_mod(mod_path, out_path)
+        else:
+            build_mod(mod_path, out_path)
