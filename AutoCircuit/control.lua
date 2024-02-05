@@ -16,7 +16,12 @@ local function get_player_setting(player_index, name)
 end
 
 local function is_long_distance_pole(entity)
-   local poleproto = entity.prototype
+	local poleproto
+	if(entity.type == "entity-ghost") then
+		poleproto = entity.ghost_prototype
+	else
+		poleproto = entity.prototype
+	end	
    return (poleproto.supply_area_distance <= 2
            or poleproto.max_wire_distance >= 30)
 end
