@@ -15,8 +15,12 @@ local function get_player_setting(player_index, name)
    return settings.get_player_settings(player_index)[name].value
 end
 
+local function get_prototype(entity)
+   return entity.type == 'entity-ghost' and entity.ghost_prototype or entity.prototype
+end
+
 local function is_long_distance_pole(entity)
-   local poleproto = entity.prototype
+   local poleproto = get_prototype(entity)
    return (poleproto.supply_area_distance <= 2
            or poleproto.max_wire_distance >= 30)
 end
@@ -27,7 +31,7 @@ local function is_viable_for_connection(event)
 end
 
 local function has_wire(entity, color, string_to_ghosts)
-   -- wire relations decribed in https://www.factorio.com/blog/post/fff-379
+   -- wire relations described in https://www.factorio.com/blog/post/fff-379
    -- wires between poles are two-way via *entity.neighbours* and *entity.circuit_connected_entities*
    -- except ghosts - they only connect to real entities via *entity.circuit_connected_entities* and real entities not connected back
    
@@ -91,8 +95,10 @@ function OnBuiltElectricPole(event)
       if not is_viable_for_connection(event) then
          goto continue
       end
+      self_proto = get_prototype(entity)
+      other_proto = get_prototype(otherpole)
 
-      if connect_same_only and entity.prototype ~= otherpole.prototype then
+      if connect_same_only and self_proto ~= other_proto then
          goto continue
       end
 
