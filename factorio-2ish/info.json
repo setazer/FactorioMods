@@ -1,6 +1,6 @@
 {
     "name": "factorio-2ish",
-    "version": "0.396.1",
+    "version": "0.397.1",
     "factorio_version": "1.1",
     "title": "Factorio 2'ish ",
     "author": "SetazeR",
@@ -16,6 +16,7 @@
         "? DestructiveBlueprints",
         "? DoRobotsBuildAutomaticTrains",
         "? FilterInsertersBegone",
+        "? FNEI",
         "? GDIW",
         "? GhostOnWater",
         "? Kux-BlueprintExtensions",
@@ -23,6 +24,7 @@
         "? ModuleInserter",
         "? ModuleInserterSimplified",
         "? PowerPole32",
+        "? RecipeBook",
         "? RemoteConfiguration",
         "? Shortcuts-ick",
         "? SimpleCompress",

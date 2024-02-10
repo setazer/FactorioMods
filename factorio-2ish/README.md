@@ -28,6 +28,7 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
  + [Crafting Combinator Xeraph's Fork](https://mods.factorio.com/mod/crafting_combinator_xeraph) - set or read the recipe of any crafting machine, get ingredients or products of a recipe and more ([FFF-394](https://www.factorio.com/blog/post/fff-394))
  + [Train Status Icons](https://mods.factorio.com/mod/TrainStatusIcons) - new train status icons ([FFF-395](https://www.factorio.com/blog/post/fff-395))
  + [Do Robots Build Automatic Trains?](https://mods.factorio.com/mod/DoRobotsBuildAutomaticTrains) - makes blueprinted trains start in automatic mode, automatically ([FFF-395](https://www.factorio.com/blog/post/fff-395))
+ + [Recipe Book](https://mods.factorio.com/mod/RecipeBook) or [FNEI](https://mods.factorio.com/mod/FNEI) - information about machines, materials, recipes, and technology ([FFF-397](https://www.factorio.com/blog/post/fff-397))
 
 #### Content Mods:
  + [Janky Quality](https://mods.factorio.com/mod/janky-quality) - implementation of quality system ([FFF-375](https://www.factorio.com/blog/post/fff-375))
