@@ -4,6 +4,12 @@ Date: %date%
   Changes:
     - 
 ---------------------------------------------------------------------------------------------------
+Version: 0.398.1
+Date: 18. 02. 2024
+  Changes:
+    - Added Parametrized Blueprints, Factoriopedia and Rapid Belts
+    - Fixed settings value reading (all settings was assumed enabled)
+---------------------------------------------------------------------------------------------------
 Version: 0.397.1
 Date: 09. 02. 2024
   Changes:

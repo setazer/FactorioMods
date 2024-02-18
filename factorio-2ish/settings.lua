@@ -40,5 +40,16 @@ if mods.AdvancedBelts then
             order = "c"
         },
     })
+end
 
+if mods["rapid-beltsv1"] then
+    data:extend({
+        {
+            type = "bool-setting",
+            name = "f2-uraniumless-belts",
+            setting_type = "startup",
+            default_value = false,
+            order = "d"
+        },
+    })
 end
