@@ -1,6 +1,10 @@
-script.on_init(function()
-	global.fast_replaced_inserters = {}
-end)
+
+local function init()
+   global.fast_replaced_inserters = {}
+end
+
+script.on_init(init)
+script.on_configuration_changed(init)
 
 local function pos_to_str(position) 
    return position.x .. ";" .. position.y
