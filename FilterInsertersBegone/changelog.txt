@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 18. 02. 2024
+  Changes:
+    - Changed behaviour:
+    Filter mode of newly placed inserters with circuit connections (placed with blueprint or copied some circuit setup, not just the inserter) won't change to blacklist
+---------------------------------------------------------------------------------------------------
 Version: 0.1.7
 Date: 18. 02. 2024
   Changes:

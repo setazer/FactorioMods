@@ -23,6 +23,12 @@ local function has_empty_filters(entity)
    return true
 end
 
+local function has_circuit_connections(entity)
+   red = entity.circuit_connected_entities.red
+   green = entity.circuit_connected_entities.green
+   return red and next(red) ~= nil or green and next(green) ~= nil
+end
+
 local function is_fast_replaced(position, cur_tick) 
    local deprecated = {}
    local result = nil
@@ -52,8 +58,8 @@ function OnBuiltInserter(event)
    local entity = event.created_entity or event.entity or event.destination
    local tick = event.tick
    local position = entity.position
-   local fast_replaced = is_fast_replaced(position, tick)
-   if has_empty_filters(entity) and entity.inserter_filter_mode == "whitelist" and not is_filter_inserter(entity) then
+   if has_empty_filters(entity) and entity.inserter_filter_mode == "whitelist" and not is_filter_inserter(entity) and not has_circuit_connections(entity) then
+      local fast_replaced = is_fast_replaced(position, tick)
       if fast_replaced then
          global.fast_replaced_inserters[pos_to_str(position)] = nil
       else
