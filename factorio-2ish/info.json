@@ -1,6 +1,6 @@
 {
     "name": "factorio-2ish",
-    "version": "0.398.1",
+    "version": "0.400.1",
     "factorio_version": "1.1",
     "title": "Factorio 2'ish ",
     "author": "SetazeR",
@@ -15,6 +15,7 @@
         "? CursorEnhancements",
         "? DestructiveBlueprints",
         "? DoRobotsBuildAutomaticTrains",
+        "? FactorySearch",
         "? FilterInsertersBegone",
         "? FNEI",
         "? GDIW",
@@ -39,6 +40,7 @@
         "? big-mining-drill",
         "? bigminingdrill",
         "? blueprint-variables",
+        "? car-finder",
         "? crafting_combinator_xeraph",
         "? deadlock-beltboxes-loaders",
         "? factoripedia",

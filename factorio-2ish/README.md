@@ -35,6 +35,8 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
  + [Train Status Icons](https://mods.factorio.com/mod/TrainStatusIcons) - new train status icons ([FFF-395](https://www.factorio.com/blog/post/fff-395))
  + [Do Robots Build Automatic Trains?](https://mods.factorio.com/mod/DoRobotsBuildAutomaticTrains) - makes blueprinted trains start in automatic mode, automatically ([FFF-395](https://www.factorio.com/blog/post/fff-395))
  + [Recipe Book](https://mods.factorio.com/mod/RecipeBook) or [FNEI](https://mods.factorio.com/mod/FNEI) or [Factoripedia](https://mods.factorio.com/mod/factoripedia)  - information about machines, materials, recipes, and technology ([FFF-397](https://www.factorio.com/blog/post/fff-397))
+ + [Factory Search](https://mods.factorio.com/mod/FactorySearch) - search your factory for items, fluids, entities, signals, tags and more ([FFF-400](https://www.factorio.com/blog/post/fff-400))
+ + [Car/Tank/Spidertron Locator Button](https://mods.factorio.com/mod/car-finder) - button to quickly find your vehicles ([FFF-400](https://www.factorio.com/blog/post/fff-400))
 
 #### Content Mods:
  + [Janky Quality](https://mods.factorio.com/mod/janky-quality) - implementation of quality system ([FFF-375](https://www.factorio.com/blog/post/fff-375))
