@@ -57,6 +57,17 @@ def update_changelog(changelog_path, version, date):
         f.write(changelog)
 
 
+def write_forced_info(info_path):
+    with open(info_path, encoding='utf-8') as f:
+        info = json.load(f)
+        reqs = info['dependencies']
+    info['dependencies'] = [dep.replace('? ', '') for dep in reqs]
+    info['name'] += '-forced'
+    info['title'] += ' Force Full Install'
+    with open(info_path, 'w', encoding='utf-8') as f:
+        json.dump(info, f, indent=4)
+
+
 @contextmanager
 def update_2ish(path: pathlib.Path):
     changelog_path = path / 'changelog.txt'

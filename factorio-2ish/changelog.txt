@@ -4,6 +4,13 @@ Date: %date%
   Changes:
     - 
 ---------------------------------------------------------------------------------------------------
+Version: 0.402.1
+Date: 21. 03. 2024
+    - Added Reconnect Cut Wires and FFF 402 radars
+    - Replaced https://mods.factorio.com/mod/fluid_permutations with https://mods.factorio.com/mod/fluid_permutations_fixed
+    - Replaced https://mods.factorio.com/mod/ModuleInserter with https://mods.factorio.com/mod/ModuleInserterEx
+    - Removed pigo-selector-combinator due to deprecation
+---------------------------------------------------------------------------------------------------
 Version: 0.400.1
 Date: 08. 03. 2024
   Changes:
