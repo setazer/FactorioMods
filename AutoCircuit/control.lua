@@ -74,7 +74,11 @@ local function get_connected_via_copper(entity, string_to_ghosts)
 end
 
 function OnBuiltElectricPole(event)
-   if not game.players[event.player_index].is_shortcut_toggled("ac-shortcut") then
+   local player = game.players[event.player_index]
+   if player.is_cursor_blueprint() then
+      return
+   end
+   if not player.is_shortcut_toggled("ac-shortcut") then
       return
    end
 
