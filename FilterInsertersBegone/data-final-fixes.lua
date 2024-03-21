@@ -12,6 +12,10 @@ function remove_recipe_from_effects(effects, recipe)
 end
 
 local filter_inserter_recipes = {"filter-inserter", "stack-filter-inserter"}
+if mods.Krastorio2 then
+    filter_inserter_recipes[#filter_inserter_recipes+1] = "kr-superior-filter-inserter"
+    filter_inserter_recipes[#filter_inserter_recipes+1] = "kr-superior-long-filter-inserter"
+end
 
 for _, recipe in ipairs(filter_inserter_recipes) do
     data.raw["recipe"][recipe].hidden = true
@@ -26,3 +30,13 @@ end
 data.raw.technology["fast-inserter"].icon = "__FilterInsertersBegone__/graphics/tech/fast_inserter.png"
 remove_recipe_from_effects(data.raw.technology["fast-inserter"].effects, "filter-inserter")
 remove_recipe_from_effects(data.raw.technology["stack-inserter"].effects, "stack-filter-inserter")
+
+if mods["space-exploration"] then
+    remove_recipe_from_effects(data.raw.technology["filter-inserter"].effects, "filter-inserter")
+    remove_recipe_from_effects(data.raw.technology["stack-filter-inserter"].effects, "stack-filter-inserter")
+end
+
+if mods.Krastorio2 then
+    remove_recipe_from_effects(data.raw.technology["kr-superior-inserters"].effects, "kr-superior-filter-inserter")
+    remove_recipe_from_effects(data.raw.technology["kr-superior-inserters"].effects, "kr-superior-long-filter-inserter")
+end

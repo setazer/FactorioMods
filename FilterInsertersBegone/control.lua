@@ -1,3 +1,4 @@
+require( "scripts/migrations.lua")
 
 local function init()
    global.fast_replaced_inserters = {}
@@ -29,7 +30,7 @@ local function has_circuit_connections(entity)
    return red and next(red) ~= nil or green and next(green) ~= nil
 end
 
-local function is_fast_replaced(position, cur_tick) 
+local function is_fast_replaced(position, cur_tick)
    local deprecated = {}
    local result = nil
    for pos, tick in pairs(global.fast_replaced_inserters) do

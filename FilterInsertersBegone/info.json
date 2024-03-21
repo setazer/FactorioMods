@@ -1,10 +1,14 @@
 {
 	"name": "FilterInsertersBegone",
-	"version": "0.1.8",
+	"version": "0.1.9",
 	"title": "Filter Inserters Begone!",
 	"author": "SetazeR",
 	"factorio_version": "1.1",
-	"dependencies": ["base >= 1.1"],
+	"dependencies": [
+		"base >= 1.1",
+		"? Krastorio2",
+		"? space-exploration"
+	],
 	"description": "Makes all inserters filter inserters and hides existing ones",
 	"source": "https://github.com/setazer/FactorioMods",
 	"homepage": "https://github.com/setazer/FactorioMods"
