@@ -38,6 +38,8 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
  + [Factory Search](https://mods.factorio.com/mod/FactorySearch) - search your factory for items, fluids, entities, signals, tags and more ([FFF-400](https://www.factorio.com/blog/post/fff-400))
  + [Car/Tank/Spidertron Locator Button](https://mods.factorio.com/mod/car-finder) - button to quickly find your vehicles ([FFF-400](https://www.factorio.com/blog/post/fff-400))
  + [Reconnect Cut Wires](https://mods.factorio.com/mod/reconnect-cut-wires) - restore wire connections when moving cut-pasting entitites ([FFF-402](https://www.factorio.com/blog/post/fff-402))
+ + [Cursor Enhancements](https://mods.factorio.com/mod/CursorEnhancements) or [Slightly Smarter Pipette](https://mods.factorio.com/mod/slightly_smarter_pipette) - more qol cursor interactions ([FFF-404](https://www.factorio.com/blog/post/fff-404))
+ + [Spider_Control](https://mods.factorio.com/mod/Spider_Control) - spidertron squads control ([FFF-404](https://www.factorio.com/blog/post/fff-404))
 
 #### Content Mods:
  + [Janky Quality](https://mods.factorio.com/mod/janky-quality) - implementation of quality system ([FFF-375](https://www.factorio.com/blog/post/fff-375))
@@ -46,6 +48,3 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
  + [Advanced Belts](https://mods.factorio.com/mod/AdvancedBelts) or [Rapid Belts](https://mods.factorio.com/mod/rapid-beltsv1) - higher tier belts ([FFF-393](https://www.factorio.com/blog/post/fff-393))
  + [Deadlock's Stacking Beltboxes & Compact Loaders](https://mods.factorio.com/mod/deadlock-beltboxes-loaders) or [Simple Compress](https://mods.factorio.com/mod/SimpleCompress) - item stacking for higher throughput ([FFF-393](https://www.factorio.com/blog/post/fff-393))
  + [FFF 402 radars](https://mods.factorio.com/mod/fff-402-radars) - radars transmit and receive signals across the same surface ([FFF-402](https://www.factorio.com/blog/post/fff-402))
-
-#### Not-FFF related:
- + [CursorEnhancements](https://mods.factorio.com/mod/CursorEnhancements) - more qol cursor interactions ([Implemented Suggestion Post](https://forums.factorio.com/viewtopic.php?p=567550#p567550))

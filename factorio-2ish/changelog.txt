@@ -4,8 +4,15 @@ Date: %date%
   Changes:
     - 
 ---------------------------------------------------------------------------------------------------
+Version: 0.404.1
+Date: 29. 03. 2024
+  Changes:
+    - Added Spider Control and Slightly Smarter Pipette
+    - Cursor Enhancements finally got related FFF
+---------------------------------------------------------------------------------------------------
 Version: 0.402.1
 Date: 21. 03. 2024
+  Changes:
     - Added Reconnect Cut Wires and FFF 402 radars
     - Replaced https://mods.factorio.com/mod/fluid_permutations with https://mods.factorio.com/mod/fluid_permutations_fixed
     - Replaced https://mods.factorio.com/mod/ModuleInserter with https://mods.factorio.com/mod/ModuleInserterEx
