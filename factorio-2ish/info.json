@@ -1,6 +1,6 @@
 {
     "name": "factorio-2ish",
-    "version": "0.404.1",
+    "version": "0.404.2",
     "factorio_version": "1.1",
     "title": "Factorio 2'ish",
     "author": "SetazeR",
@@ -40,6 +40,7 @@
         "? better-cliff-hitboxes",
         "? big-mining-drill",
         "? bigminingdrill",
+        "? blueprint-align",
         "? blueprint-variables",
         "? car-finder",
         "? crafting_combinator_xeraph",

@@ -40,6 +40,7 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
  + [Reconnect Cut Wires](https://mods.factorio.com/mod/reconnect-cut-wires) - restore wire connections when moving cut-pasting entitites ([FFF-402](https://www.factorio.com/blog/post/fff-402))
  + [Cursor Enhancements](https://mods.factorio.com/mod/CursorEnhancements) or [Slightly Smarter Pipette](https://mods.factorio.com/mod/slightly_smarter_pipette) - more qol cursor interactions ([FFF-404](https://www.factorio.com/blog/post/fff-404))
  + [Spider_Control](https://mods.factorio.com/mod/Spider_Control) - spidertron squads control ([FFF-404](https://www.factorio.com/blog/post/fff-404))
+ + [Blueprint aligner ](https://mods.factorio.com/mod/blueprint-align) - set blueprint grid size and offsets by placing the blueprint in the world ([FFF-404](https://www.factorio.com/blog/post/fff-404))
 
 #### Content Mods:
  + [Janky Quality](https://mods.factorio.com/mod/janky-quality) - implementation of quality system ([FFF-375](https://www.factorio.com/blog/post/fff-375))
