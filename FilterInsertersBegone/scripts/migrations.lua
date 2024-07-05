@@ -16,6 +16,10 @@ function migrate_filter_inserters(event)
         conversions['kr-superior-filter-inserter'] = 'kr-superior-inserter'
         conversions['kr-superior-long-filter-inserter'] = 'kr-superior-long-inserter'
     end
+    if script.active_mods["exotic-industries"] then
+        conversions['ei_small-inserter'] = 'ei_small-inserter-normal'
+        conversions['ei_big-inserter'] = 'ei_big-inserter-normal'
+    end
 
     names = {}
     for k,_ in pairs(conversions) do
