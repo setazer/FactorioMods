@@ -1,0 +1,13 @@
+{
+	"name": "buffed-inserters",
+	"version": "0.1.0",
+	"title": "Buffed inserters",
+	"author": "SetazeR",
+	"factorio_version": "1.1",
+	"dependencies": [
+		"base >= 1.1"
+	],
+	"description": "Buffs inserter extension speed (fixes some pickup quirks of inserters)",
+	"source": "https://github.com/setazer/FactorioMods",
+	"homepage": "https://github.com/setazer/FactorioMods"
+}
