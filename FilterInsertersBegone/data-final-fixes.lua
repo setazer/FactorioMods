@@ -36,9 +36,9 @@ data.raw.technology["fast-inserter"].icon = "__FilterInsertersBegone__/graphics/
 remove_recipe_from_effects(data.raw.technology["fast-inserter"].effects, "filter-inserter")
 remove_recipe_from_effects(data.raw.technology["stack-inserter"].effects, "stack-filter-inserter")
 
-if mods["space-exploration"] then
-    remove_recipe_from_effects(data.raw.technology["filter-inserter"].effects, "filter-inserter")
-    remove_recipe_from_effects(data.raw.technology["stack-filter-inserter"].effects, "stack-filter-inserter")
+if mods["aai-industry"] or mods["space-exploration"] then
+    data.raw.technology["filter-inserter"] = nil
+    data.raw.technology["stack-filter-inserter"] = nil
 end
 
 if mods["exotic-industries"] then
