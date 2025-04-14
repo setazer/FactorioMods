@@ -3,7 +3,6 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
 
 ### Mods' contents:
 #### Optional adjustments for supported mods
- + (Tinted Ghosts) Ghost tile color 
  + (AAI Big Mining Drill) Adjusting  stats and pipe connections
  + (Advanced Belts) Hide higher tiers of belts
  + (Rapid Belts) Remove uranium from recipes 
@@ -50,3 +49,4 @@ Modpack with features that will be implemented in Factorio 2.0 core game. Some m
  + [Advanced Belts](https://mods.factorio.com/mod/AdvancedBelts) or [Rapid Belts](https://mods.factorio.com/mod/rapid-beltsv1) - higher tier belts ([FFF-393](https://www.factorio.com/blog/post/fff-393))
  + [Deadlock's Stacking Beltboxes & Compact Loaders](https://mods.factorio.com/mod/deadlock-beltboxes-loaders) or [Simple Compress](https://mods.factorio.com/mod/SimpleCompress) - item stacking for higher throughput ([FFF-393](https://www.factorio.com/blog/post/fff-393))
  + [FFF 402 radars](https://mods.factorio.com/mod/fff-402-radars) - radars transmit and receive signals across the same surface ([FFF-402](https://www.factorio.com/blog/post/fff-402))
+ + [Tesla's Legacy (Electric Turrets)](https://mods.factorio.com/mod/tesla_legacy) - electric towers ([FFF-422](https://www.factorio.com/blog/post/fff-422))

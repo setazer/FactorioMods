@@ -1,6 +1,6 @@
 {
     "name": "factorio-2ish",
-    "version": "0.419.1",
+    "version": "0.458.2",
     "factorio_version": "1.1",
     "title": "Factorio 2'ish",
     "author": "SetazeR",
@@ -57,7 +57,8 @@
         "? remote-requests",
         "? show-max-underground-distance",
         "? simple_landfill_mining",
-        "? slightly_smarter_pipette"
+        "? slightly_smarter_pipette",
+        "? tesla_legacy"
     ],
     "package": {
         "sync_portal_details": true

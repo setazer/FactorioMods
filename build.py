@@ -7,7 +7,7 @@ import zipfile
 
 from utils import update_2ish, write_forced_info
 
-FACTORIO_PATH = pathlib.Path(os.getenv('APPDATA')) / 'Factorio' / 'mods'
+# FACTORIO_PATH = pathlib.Path(os.getenv('APPDATA')) / 'Factorio' / 'mods'
 
 
 def build_mod(path, out_path, make_forced=False):
@@ -52,9 +52,9 @@ if __name__ == '__main__':
                 and not mod_path.name.startswith(('.', '__')))]
 
     # purge old versions
-    for mod_path in mods:
-        for old_build in FACTORIO_PATH.glob(f'{mod_path.name}*.zip'):
-            old_build.unlink()
+    # for mod_path in mods:
+    #     for old_build in FACTORIO_PATH.glob(f'{mod_path.name}*.zip'):
+    #         old_build.unlink()
 
     # build mods
     for mod_path in mods:
@@ -66,4 +66,4 @@ if __name__ == '__main__':
             build_mod(mod_path, out_path)
 
     # install mods
-    shutil.copytree(out_path, FACTORIO_PATH, dirs_exist_ok=True)
+    # shutil.copytree(out_path, FACTORIO_PATH, dirs_exist_ok=True)

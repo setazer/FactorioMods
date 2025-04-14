@@ -1,0 +1,10 @@
+data.raw["utility-constants"].default.ghost_shader_tint.ghost_tint = settings.startup["gt-ghost-shader-tint"].value
+data.raw["utility-constants"].default.ghost_shader_tint.ghost_delivery_tint = settings.startup["gt-ghost-shader-delivery-tint"].value
+data.raw["utility-constants"].default.ghost_shader_tint.tile_ghost_tint = settings.startup["gt-ghost-shader-tile-tint"].value
+data.raw["utility-constants"].default.ghost_shader_tint.tile_ghost_delivery_tint = settings.startup["gt-ghost-shader-tile-delivery-tint"].value
+data.raw["utility-constants"].default.ghost_shader_tint.wire_tint = settings.startup["gt-ghost-shader-wire-tint"].value
+data.raw["utility-constants"].default.ghost_shaderless_tint.ghost_tint = settings.startup["gt-ghost-shaderless-tint"].value
+data.raw["utility-constants"].default.ghost_shaderless_tint.ghost_delivery_tint = settings.startup["gt-ghost-shaderless-delivery-tint"].value
+data.raw["utility-constants"].default.ghost_shaderless_tint.tile_ghost_tint = settings.startup["gt-ghost-shaderless-tile-tint"].value
+data.raw["utility-constants"].default.ghost_shaderless_tint.tile_ghost_delivery_tint = settings.startup["gt-ghost-shaderless-tile-delivery-tint"].value
+data.raw["utility-constants"].default.ghost_shaderless_tint.wire_tint = settings.startup["gt-ghost-shaderless-wire-tint"].value
