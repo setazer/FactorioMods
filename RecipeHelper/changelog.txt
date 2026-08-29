@@ -1,0 +1,8 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 29. 09. 2026.
+  Features:
+    - Toggle button next to any opened crafting machine GUI.
+    - One-click recipe selection (no "Confirm" step after Quality technology).
+    - Mouse wheel cycles recipe quality for all recipes in the picker.
+    - Search filter by recipe name.
