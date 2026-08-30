@@ -309,16 +309,6 @@ local function build_panel(player, detached)
         -- Screen windows can be dragged by their header.
         pusher.drag_target = panel
     end
-    title_flow.add {
-        type = "sprite-button",
-        name = "rh-close",
-        sprite = "utility/close",
-        hovered_sprite = "utility/close",
-        clicked_sprite = "utility/close",
-        style = "frame_action_button",
-        tooltip = { "gui.close-instruction" },
-        tags = { action = "close" },
-    }
     local search = title_flow.add {
         type = "textfield",
         name = SEARCH_NAME,
@@ -337,6 +327,16 @@ local function build_panel(player, detached)
         toggled = state.search_open or false,
         tooltip = { "rh.search-toggle" },
         tags = { action = "search-toggle" },
+    }
+    title_flow.add {
+        type = "sprite-button",
+        name = "rh-close",
+        sprite = "utility/close",
+        hovered_sprite = "utility/close",
+        clicked_sprite = "utility/close",
+        style = "frame_action_button",
+        tooltip = { "gui.close-instruction" },
+        tags = { action = "close" },
     }
 
     if state.search_open then

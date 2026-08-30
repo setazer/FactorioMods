@@ -1,6 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 30. 08. 2026.
+  Bugfixes:
+    - Fixed close window button position on recipe picker
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 29. 09. 2026.
+Date: 29. 08. 2026.
   Features:
     - Toggle button next to any opened crafting machine GUI.
     - One-click recipe selection (no "Confirm" step after Quality technology).
